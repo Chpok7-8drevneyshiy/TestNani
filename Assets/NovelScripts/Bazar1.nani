@@ -1,0 +1,22 @@
+@goto .NoBox if:"g_Box=0"
+@goto .HaveBox if:"g_Box!=0"
+#NoBox
+Здарова
+@unlock yardLock
+Принеси мне коробку со двора
+@hidePrinter
+@stop
+#HaveBox
+Отдашь?
+@choice "Отадать" goto:.Give
+@choice "Забрать себе" goto:.Get
+@hidePrinter
+@stop
+#Give
+Спасибо
+@hidePrinter
+@stop
+#Get
+Ладно
+@hidePrinter
+@stop

@@ -1,0 +1,4 @@
+@hideUI HomeUI
+@hideUI YardUI
+@showUI MapUI
+@stop

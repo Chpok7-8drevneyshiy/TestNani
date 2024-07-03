@@ -1,0 +1,4 @@
+@showUI MapButtonUI
+@showUI YardUI
+@lock box
+@stop

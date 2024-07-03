@@ -1,0 +1,6 @@
+@showUI MapUI
+@input "Введите имя:" "playerName"
+@lock yardLock
+@unlock box
+@set g_Box=0
+@stop

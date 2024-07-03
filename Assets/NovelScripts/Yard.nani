@@ -1,0 +1,5 @@
+@hideUI MapUI
+@back Yard
+@showUI YardUI
+@showUI MapButtonUI
+@stop

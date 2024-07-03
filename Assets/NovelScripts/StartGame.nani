@@ -1,0 +1,4 @@
+@lock box
+@set g_Box=1
+@hideUI HomeUI
+@stop
